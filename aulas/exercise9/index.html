@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interações com JavaScript</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Exemplo de Interações</h1>
+
+    <button onclick="mudarCor()">Mudar cor de fundo aleatoriamente</button>
+
+    <input type="text" id="novoItem" placeholder="Digite algo pra lista">
+    <button onclick="adicionarItem()">Adicionar à lista</button>
+
+    <button onclick="removerItem()">Remover último item</button>
+
+    <ul id="lista"></ul>
+
+    <p id="hoverText" onmouseover="mudarTexto()" onmouseout="restaurarTexto()">
+        Passe o mouse aqui!
+    </p>
+
+</body>
+
+</html>
